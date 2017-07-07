@@ -5,6 +5,11 @@
                 $('.logos .row').children().filter(function(index) {
                     return index < 9;
                 }).css( "display", "inline-block");
+
+				$(function () {
+				  $('[data-toggle="tooltip"]').tooltip()
+				})
+                
         });
 
 }(window.jQuery, window, document));

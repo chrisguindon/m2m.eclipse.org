@@ -77,8 +77,8 @@ main.main {
         .first-col, .second-col {
             //margin-top:15px;
             h2 {
-                font-size: 22px;
-                font-weight: 700;
+                font-size: 1.6em;
+                font-weight: 600;
                 color: $black !important;
             }
             p {
@@ -762,5 +762,10 @@ main.main {
         margin-top: 1.2em;
         margin-bottom: .5em;
     }
+}
+
+
+.tooltip-inner {
+  background-color: $blue;
 }
 
